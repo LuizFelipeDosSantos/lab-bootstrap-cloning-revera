@@ -29,12 +29,24 @@ body {
     text-decoration: none;
 }
 
+#carouselExampleControls .carousel-control-prev  {
+    justify-content: flex-start;
+}
+
+#carouselExampleControls .carousel-control-next  {
+    justify-content: flex-end;
+}
+
 #carouselExampleControls .carousel-control-prev-icon {
     background-color: #ed564b;
+    height: 15vh;
+    width: 4vw;
 }
 
 #carouselExampleControls .carousel-control-next-icon {
     background-color: #ed564b;
+    height: 15vh;
+    width: 4vw;
 }
 
 .carousel-item {
